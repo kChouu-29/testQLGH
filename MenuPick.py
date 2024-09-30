@@ -2,8 +2,6 @@ from ManageItem import Manage
 from VaseClass import Vase  # Import lớp Vase để tạo đối tượng
 from StatueClass import Statue
 from PaintingClass import Painting
-import os
-import time
 def main():
     # Tạo đối tượng của lớp Manage
     manage = Manage()
@@ -59,6 +57,7 @@ def main():
                 break  # Thoát khỏi vòng lặp và kết thúc chương trình
             case _:
                 print("Your choice not valid.pls return choice")
+                print("abcd")
 
 if __name__ == "__main__":
     main()
